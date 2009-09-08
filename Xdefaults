@@ -13,7 +13,7 @@ URxvt.scrollBar: false
 URxvt.scrollTtyKeypress: true
 URxvt.scrollWithBuffer: false
 URxvt.scrollTtyOutput: false
-URxvt.geometry: 80x25
+URxvt.geometry: 110x60
 
 URxvt.perl-lib: /usr/lib/urxvt/perl/
 URrxvt.perl-ext-common: default,matcher
