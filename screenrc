@@ -1,0 +1,19 @@
+escape ``
+
+screen -t Terminal	1
+screen -t Terminal	2
+screen -t Music		3 ncmpcpp
+screen -t Web		4 links
+screen -t IRC		5 weechat-curses
+screen -t Torrents	6 rtorrent 
+screen -t Load		7 htop
+
+select 1
+
+altscreen on
+
+term screen-256color
+
+startup_message off
+
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
