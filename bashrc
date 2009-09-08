@@ -9,7 +9,7 @@ fi
 alias chromium='chromium-browser --enable-user-scripts'
 alias opera='opera -notrayicon -nomail -noargb -nolirc'
 alias nethack='telnet nethack.alt.org'
-alias pacman='sudo pacman'
+alias pacman='sudo pacman-color'
 
 extract () {
   if [ -f $1 ] ; then
