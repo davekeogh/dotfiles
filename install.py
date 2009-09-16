@@ -11,4 +11,4 @@ if __name__ == '__main__':
         else:
             target = os.path.join(os.path.expanduser('~'), '.%s' % file)
             print 'Copying %s to %s...' % (file, target)
-            #shutil.copyfile(file, target)
+            shutil.copyfile(file, target)
