@@ -6,7 +6,6 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 # Alias definitions:
-alias chromium='chromium-browser --enable-user-scripts'
 alias opera='opera -notrayicon -nomail -noargb -nolirc'
 alias nethack='telnet nethack.alt.org'
 alias pacman='sudo pacman-color'

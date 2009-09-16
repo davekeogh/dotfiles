@@ -11,4 +11,4 @@ numlockx &
 
 xscreensaver -no-splash &
 
-exec xfce4-session
+exec ck-launch-session xfce4-session

@@ -4,9 +4,7 @@ screen -t Terminal	1
 screen -t Terminal	2
 screen -t Music		3 ncmpcpp
 screen -t Web		4 links
-screen -t IRC		5 weechat-curses
-screen -t Torrents	6 rtorrent 
-screen -t Load		7 htop
+screen -t Load		5 htop
 
 select 1
 
