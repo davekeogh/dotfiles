@@ -12,5 +12,9 @@ if __name__ == '__main__':
             pass
         else:
             target = os.path.join(os.path.expanduser('~'), '.%s' % file)
+            
+            if os.path.exists(target):
+                os.remove(target)
+            
             print 'Linking %s to %s...' % (target, file)
-            os.symlink(file, target)
+            os.symlink(os.path.join(os.getcwd(), file), target)
